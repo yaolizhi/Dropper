@@ -119,4 +119,13 @@ static Help *sharedObject = nil; //第一步：静态实例，并初始化。
     return destinationDateNow;
 }
 
+
+#pragma mark - 获取 Bundle Indentifier
+-(NSString*)bundleIdentifier
+{
+    
+    NSString *bundleIdentifier = [[NSBundle mainBundle] bundleIdentifier];
+    return bundleIdentifier;
+}
+
 @end

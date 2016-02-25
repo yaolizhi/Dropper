@@ -18,5 +18,8 @@
 #pragma mark - 时间字符串转换成NSDate
 -(NSDate*)fromTimeString:(NSString*)time;
 
+#pragma mark - 获取 Bundle Indentifier
+-(NSString*)bundleIdentifier;
+
 
 @end
