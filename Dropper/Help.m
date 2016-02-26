@@ -128,4 +128,13 @@ static Help *sharedObject = nil; //第一步：静态实例，并初始化。
     return bundleIdentifier;
 }
 
+
+#pragma mark - 打印搜索框中的子视图
+-(void)searchBarSubView
+{
+//     NSLog(@"%@", [self.searchBar performSelector:@selector(recursiveDescription)]);
+}
+
+
+
 @end
