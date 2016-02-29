@@ -14,10 +14,11 @@
 		50104F4A1C7DA78700FE2A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50104F481C7DA78700FE2A47 /* LaunchScreen.storyboard */; };
 		50104F531C7DA7B800FE2A47 /* Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 50104F521C7DA7B800FE2A47 /* Help.m */; };
 		508320CD1C83DCB00040710F /* DropperAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 508320CC1C83DCB00040710F /* DropperAVAudioPlayer.m */; };
-		508320D11C83E1DF0040710F /* DropperAVAudioPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508320D01C83E1DF0040710F /* DropperAVAudioPlayerViewController.m */; };
+		508320D11C83E1DF0040710F /* DropperAVFoundationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508320D01C83E1DF0040710F /* DropperAVFoundationViewController.m */; };
 		508320D31C83E2DD0040710F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508320D21C83E2DD0040710F /* AVFoundation.framework */; };
 		508320D61C83E3060040710F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508320D51C83E3060040710F /* Foundation.framework */; };
 		508320D81C83EDF10040710F /* ios.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 508320D71C83EDF10040710F /* ios.mp3 */; };
+		508320DB1C8422920040710F /* DropperAVAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 508320DA1C8422920040710F /* DropperAVAudioRecorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +36,13 @@
 		508320CB1C83DCB00040710F /* DropperAVAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperAVAudioPlayer.h; sourceTree = "<group>"; };
 		508320CC1C83DCB00040710F /* DropperAVAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperAVAudioPlayer.m; sourceTree = "<group>"; };
 		508320CE1C83DF640040710F /* Dropper_Header.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dropper_Header.pch; sourceTree = "<group>"; };
-		508320CF1C83E1DF0040710F /* DropperAVAudioPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperAVAudioPlayerViewController.h; sourceTree = "<group>"; };
-		508320D01C83E1DF0040710F /* DropperAVAudioPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperAVAudioPlayerViewController.m; sourceTree = "<group>"; };
+		508320CF1C83E1DF0040710F /* DropperAVFoundationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperAVFoundationViewController.h; sourceTree = "<group>"; };
+		508320D01C83E1DF0040710F /* DropperAVFoundationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperAVFoundationViewController.m; sourceTree = "<group>"; };
 		508320D21C83E2DD0040710F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		508320D51C83E3060040710F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		508320D71C83EDF10040710F /* ios.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ios.mp3; sourceTree = "<group>"; };
+		508320D91C8422920040710F /* DropperAVAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperAVAudioRecorder.h; sourceTree = "<group>"; };
+		508320DA1C8422920040710F /* DropperAVAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperAVAudioRecorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +83,12 @@
 				50104F3E1C7DA78700FE2A47 /* AppDelegate.m */,
 				50104F401C7DA78700FE2A47 /* ViewController.h */,
 				50104F411C7DA78700FE2A47 /* ViewController.m */,
-				508320CF1C83E1DF0040710F /* DropperAVAudioPlayerViewController.h */,
-				508320D01C83E1DF0040710F /* DropperAVAudioPlayerViewController.m */,
+				508320CF1C83E1DF0040710F /* DropperAVFoundationViewController.h */,
+				508320D01C83E1DF0040710F /* DropperAVFoundationViewController.m */,
 				508320CB1C83DCB00040710F /* DropperAVAudioPlayer.h */,
 				508320CC1C83DCB00040710F /* DropperAVAudioPlayer.m */,
+				508320D91C8422920040710F /* DropperAVAudioRecorder.h */,
+				508320DA1C8422920040710F /* DropperAVAudioRecorder.m */,
 				50104F511C7DA7B800FE2A47 /* Help.h */,
 				50104F521C7DA7B800FE2A47 /* Help.m */,
 				50104F461C7DA78700FE2A47 /* Assets.xcassets */,
@@ -187,8 +192,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				508320D11C83E1DF0040710F /* DropperAVAudioPlayerViewController.m in Sources */,
+				508320D11C83E1DF0040710F /* DropperAVFoundationViewController.m in Sources */,
 				50104F421C7DA78700FE2A47 /* ViewController.m in Sources */,
+				508320DB1C8422920040710F /* DropperAVAudioRecorder.m in Sources */,
 				50104F3F1C7DA78700FE2A47 /* AppDelegate.m in Sources */,
 				508320CD1C83DCB00040710F /* DropperAVAudioPlayer.m in Sources */,
 				50104F531C7DA7B800FE2A47 /* Help.m in Sources */,

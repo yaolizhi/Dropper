@@ -1,5 +1,5 @@
 //
-//  DropperAVAudioPlayerViewController.h
+//  DropperAVFoundationViewController.h
 //  Dropper
 //
 //  Created by ZhongMeng on 16/2/29.
@@ -10,6 +10,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DropperAVAudioPlayerViewController : UIViewController
+@interface DropperAVFoundationViewController : UIViewController
 
 @end

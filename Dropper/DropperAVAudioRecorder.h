@@ -1,19 +1,16 @@
 //
-//  DropperAVAudioPlayer.h
+//  DropperAVAudioRecorder.h
 //  Dropper
 //
 //  Created by ZhongMeng on 16/2/29.
 //  Copyright © 2016年 yaolizhi. All rights reserved.
 //
-//
-//   音频播放案例
-//
-//
-//
 
 #import <Foundation/Foundation.h>
 
-@interface DropperAVAudioPlayer : NSObject
+
+@interface DropperAVAudioRecorder : NSObject
+
 
 
 -(instancetype)initWithObject:(UIViewController*)object;

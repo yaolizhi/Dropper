@@ -9,6 +9,9 @@
 #ifndef Dropper_Header_pch
 #define Dropper_Header_pch
 
+#import <AVFoundation/AVFoundation.h>
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #define kWindow [UIApplication sharedApplication].keyWindow
 //主屏幕的大小
@@ -21,6 +24,10 @@
 
 #define Identifier @"ssssss"
 
+
+#pragma mark ************ 程序的沙盒目录 ****************
+#define HomeDirectoryDocumentFilePath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)/*这是获取沙盒目录*/ objectAtIndex:0]
+#define HomeDirectoryDocumentLastObjectFilePath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)/*这是获取沙盒目录*/ lastObject]
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.

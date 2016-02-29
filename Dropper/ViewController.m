@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "DropperAVAudioPlayerViewController.h"
+#import "DropperAVFoundationViewController.h"
 
 @interface ViewController () <UITableViewDataSource,UITableViewDelegate>
 
@@ -86,7 +86,7 @@
             break;
         case 1:
         {
-            [self.navigationController pushViewController:[[DropperAVAudioPlayerViewController alloc] init] animated:YES];
+            [self.navigationController pushViewController:[[DropperAVFoundationViewController alloc] init] animated:YES];
         }
             break;
     }
