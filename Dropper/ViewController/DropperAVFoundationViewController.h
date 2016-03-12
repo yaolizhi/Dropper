@@ -10,6 +10,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DropperAVFoundationViewController : UIViewController
+@interface DropperAVFoundationViewController : DropperBaseViewController
 
 @end

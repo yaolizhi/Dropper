@@ -7,21 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500F27671C914A1E00BFB717 /* DropperKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 500F27661C914A1E00BFB717 /* DropperKeyBoardView.m */; };
+		500F276A1C914A4400BFB717 /* DropperTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 500F27691C914A4400BFB717 /* DropperTextField.m */; };
+		500F276D1C914A7F00BFB717 /* DropperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 500F276C1C914A7F00BFB717 /* DropperButton.m */; };
 		50104F3C1C7DA78700FE2A47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50104F3B1C7DA78700FE2A47 /* main.m */; };
 		50104F3F1C7DA78700FE2A47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50104F3E1C7DA78700FE2A47 /* AppDelegate.m */; };
 		50104F421C7DA78700FE2A47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50104F411C7DA78700FE2A47 /* ViewController.m */; };
 		50104F471C7DA78700FE2A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50104F461C7DA78700FE2A47 /* Assets.xcassets */; };
 		50104F4A1C7DA78700FE2A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50104F481C7DA78700FE2A47 /* LaunchScreen.storyboard */; };
-		50104F531C7DA7B800FE2A47 /* Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 50104F521C7DA7B800FE2A47 /* Help.m */; };
-		508320CD1C83DCB00040710F /* DropperAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 508320CC1C83DCB00040710F /* DropperAVAudioPlayer.m */; };
-		508320D11C83E1DF0040710F /* DropperAVFoundationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508320D01C83E1DF0040710F /* DropperAVFoundationViewController.m */; };
+		501051631C92AB1A00981808 /* KeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5010515E1C92AB1A00981808 /* KeyBoard.m */; };
+		501051641C92AB1A00981808 /* KeyBoardAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 501051601C92AB1A00981808 /* KeyBoardAccessoryView.m */; };
+		501051651C92AB1A00981808 /* KeyBoardHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 501051621C92AB1A00981808 /* KeyBoardHelper.m */; };
+		5010516A1C92AEEE00981808 /* 表情@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 501051661C92AEEE00981808 /* 表情@2x.png */; };
+		5010516B1C92AEEE00981808 /* 键盘@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 501051671C92AEEE00981808 /* 键盘@2x.png */; };
+		5010516C1C92AEEE00981808 /* 添加@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 501051681C92AEEE00981808 /* 添加@2x.png */; };
+		5010516D1C92AEEE00981808 /* 语音@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 501051691C92AEEE00981808 /* 语音@2x.png */; };
+		50481DEF1C91032A0097E8B3 /* DropperAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 50481DE11C91032A0097E8B3 /* DropperAVAudioPlayer.m */; };
+		50481DF01C91032A0097E8B3 /* DropperAVAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 50481DE31C91032A0097E8B3 /* DropperAVAudioRecorder.m */; };
+		50481DF11C91032A0097E8B3 /* DropperExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 50481DE51C91032A0097E8B3 /* DropperExportSession.m */; };
+		50481DF21C91032A0097E8B3 /* Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 50481DE71C91032A0097E8B3 /* Help.m */; };
+		50481DF31C91032A0097E8B3 /* DropperAVFoundationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50481DEA1C91032A0097E8B3 /* DropperAVFoundationViewController.m */; };
+		50481DF41C91032A0097E8B3 /* DropperDateComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50481DEC1C91032A0097E8B3 /* DropperDateComponentsViewController.m */; };
+		50481DF51C91032A0097E8B3 /* DropperEaseEmojiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50481DEE1C91032A0097E8B3 /* DropperEaseEmojiViewController.m */; };
+		50481DF81C9105620097E8B3 /* DropperEmojiKeyBoradViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50481DF71C9105620097E8B3 /* DropperEmojiKeyBoradViewController.m */; };
+		50481DFB1C9105F80097E8B3 /* DropperBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50481DFA1C9105F80097E8B3 /* DropperBaseViewController.m */; };
 		508320D31C83E2DD0040710F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508320D21C83E2DD0040710F /* AVFoundation.framework */; };
 		508320D61C83E3060040710F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508320D51C83E3060040710F /* Foundation.framework */; };
 		508320D81C83EDF10040710F /* ios.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 508320D71C83EDF10040710F /* ios.mp3 */; };
-		508320DB1C8422920040710F /* DropperAVAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 508320DA1C8422920040710F /* DropperAVAudioRecorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500F27651C914A1E00BFB717 /* DropperKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperKeyBoardView.h; sourceTree = "<group>"; };
+		500F27661C914A1E00BFB717 /* DropperKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperKeyBoardView.m; sourceTree = "<group>"; };
+		500F27681C914A4400BFB717 /* DropperTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperTextField.h; sourceTree = "<group>"; };
+		500F27691C914A4400BFB717 /* DropperTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperTextField.m; sourceTree = "<group>"; };
+		500F276B1C914A7F00BFB717 /* DropperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperButton.h; sourceTree = "<group>"; };
+		500F276C1C914A7F00BFB717 /* DropperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperButton.m; sourceTree = "<group>"; };
 		50104F371C7DA78700FE2A47 /* Dropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50104F3B1C7DA78700FE2A47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50104F3D1C7DA78700FE2A47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,18 +52,38 @@
 		50104F461C7DA78700FE2A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50104F491C7DA78700FE2A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50104F4B1C7DA78700FE2A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50104F511C7DA7B800FE2A47 /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Help.h; sourceTree = "<group>"; };
-		50104F521C7DA7B800FE2A47 /* Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Help.m; sourceTree = "<group>"; };
-		508320CB1C83DCB00040710F /* DropperAVAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperAVAudioPlayer.h; sourceTree = "<group>"; };
-		508320CC1C83DCB00040710F /* DropperAVAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperAVAudioPlayer.m; sourceTree = "<group>"; };
+		5010515D1C92AB1A00981808 /* KeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoard.h; sourceTree = "<group>"; };
+		5010515E1C92AB1A00981808 /* KeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoard.m; sourceTree = "<group>"; };
+		5010515F1C92AB1A00981808 /* KeyBoardAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardAccessoryView.h; sourceTree = "<group>"; };
+		501051601C92AB1A00981808 /* KeyBoardAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardAccessoryView.m; sourceTree = "<group>"; };
+		501051611C92AB1A00981808 /* KeyBoardHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardHelper.h; sourceTree = "<group>"; };
+		501051621C92AB1A00981808 /* KeyBoardHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardHelper.m; sourceTree = "<group>"; };
+		501051661C92AEEE00981808 /* 表情@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "表情@2x.png"; sourceTree = "<group>"; };
+		501051671C92AEEE00981808 /* 键盘@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "键盘@2x.png"; sourceTree = "<group>"; };
+		501051681C92AEEE00981808 /* 添加@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加@2x.png"; sourceTree = "<group>"; };
+		501051691C92AEEE00981808 /* 语音@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "语音@2x.png"; sourceTree = "<group>"; };
+		50481DE01C91032A0097E8B3 /* DropperAVAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperAVAudioPlayer.h; sourceTree = "<group>"; };
+		50481DE11C91032A0097E8B3 /* DropperAVAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperAVAudioPlayer.m; sourceTree = "<group>"; };
+		50481DE21C91032A0097E8B3 /* DropperAVAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperAVAudioRecorder.h; sourceTree = "<group>"; };
+		50481DE31C91032A0097E8B3 /* DropperAVAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperAVAudioRecorder.m; sourceTree = "<group>"; };
+		50481DE41C91032A0097E8B3 /* DropperExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperExportSession.h; sourceTree = "<group>"; };
+		50481DE51C91032A0097E8B3 /* DropperExportSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperExportSession.m; sourceTree = "<group>"; };
+		50481DE61C91032A0097E8B3 /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Help.h; sourceTree = "<group>"; };
+		50481DE71C91032A0097E8B3 /* Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Help.m; sourceTree = "<group>"; };
+		50481DE91C91032A0097E8B3 /* DropperAVFoundationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperAVFoundationViewController.h; sourceTree = "<group>"; };
+		50481DEA1C91032A0097E8B3 /* DropperAVFoundationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperAVFoundationViewController.m; sourceTree = "<group>"; };
+		50481DEB1C91032A0097E8B3 /* DropperDateComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperDateComponentsViewController.h; sourceTree = "<group>"; };
+		50481DEC1C91032A0097E8B3 /* DropperDateComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperDateComponentsViewController.m; sourceTree = "<group>"; };
+		50481DED1C91032A0097E8B3 /* DropperEaseEmojiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperEaseEmojiViewController.h; sourceTree = "<group>"; };
+		50481DEE1C91032A0097E8B3 /* DropperEaseEmojiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperEaseEmojiViewController.m; sourceTree = "<group>"; };
+		50481DF61C9105620097E8B3 /* DropperEmojiKeyBoradViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperEmojiKeyBoradViewController.h; sourceTree = "<group>"; };
+		50481DF71C9105620097E8B3 /* DropperEmojiKeyBoradViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperEmojiKeyBoradViewController.m; sourceTree = "<group>"; };
+		50481DF91C9105F80097E8B3 /* DropperBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperBaseViewController.h; sourceTree = "<group>"; };
+		50481DFA1C9105F80097E8B3 /* DropperBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperBaseViewController.m; sourceTree = "<group>"; };
 		508320CE1C83DF640040710F /* Dropper_Header.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dropper_Header.pch; sourceTree = "<group>"; };
-		508320CF1C83E1DF0040710F /* DropperAVFoundationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperAVFoundationViewController.h; sourceTree = "<group>"; };
-		508320D01C83E1DF0040710F /* DropperAVFoundationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperAVFoundationViewController.m; sourceTree = "<group>"; };
 		508320D21C83E2DD0040710F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		508320D51C83E3060040710F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		508320D71C83EDF10040710F /* ios.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ios.mp3; sourceTree = "<group>"; };
-		508320D91C8422920040710F /* DropperAVAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropperAVAudioRecorder.h; sourceTree = "<group>"; };
-		508320DA1C8422920040710F /* DropperAVAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropperAVAudioRecorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,19 +119,13 @@
 		50104F391C7DA78700FE2A47 /* Dropper */ = {
 			isa = PBXGroup;
 			children = (
+				50481DDF1C91032A0097E8B3 /* Model */,
+				50481DE81C91032A0097E8B3 /* ViewController */,
 				508320D71C83EDF10040710F /* ios.mp3 */,
 				50104F3D1C7DA78700FE2A47 /* AppDelegate.h */,
 				50104F3E1C7DA78700FE2A47 /* AppDelegate.m */,
 				50104F401C7DA78700FE2A47 /* ViewController.h */,
 				50104F411C7DA78700FE2A47 /* ViewController.m */,
-				508320CF1C83E1DF0040710F /* DropperAVFoundationViewController.h */,
-				508320D01C83E1DF0040710F /* DropperAVFoundationViewController.m */,
-				508320CB1C83DCB00040710F /* DropperAVAudioPlayer.h */,
-				508320CC1C83DCB00040710F /* DropperAVAudioPlayer.m */,
-				508320D91C8422920040710F /* DropperAVAudioRecorder.h */,
-				508320DA1C8422920040710F /* DropperAVAudioRecorder.m */,
-				50104F511C7DA7B800FE2A47 /* Help.h */,
-				50104F521C7DA7B800FE2A47 /* Help.m */,
 				50104F461C7DA78700FE2A47 /* Assets.xcassets */,
 				50104F481C7DA78700FE2A47 /* LaunchScreen.storyboard */,
 				50104F4B1C7DA78700FE2A47 /* Info.plist */,
@@ -106,6 +141,62 @@
 				50104F3B1C7DA78700FE2A47 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5010515C1C92AB1A00981808 /* KeyBoardKit */ = {
+			isa = PBXGroup;
+			children = (
+				501051661C92AEEE00981808 /* 表情@2x.png */,
+				501051671C92AEEE00981808 /* 键盘@2x.png */,
+				501051681C92AEEE00981808 /* 添加@2x.png */,
+				501051691C92AEEE00981808 /* 语音@2x.png */,
+				5010515D1C92AB1A00981808 /* KeyBoard.h */,
+				5010515E1C92AB1A00981808 /* KeyBoard.m */,
+				5010515F1C92AB1A00981808 /* KeyBoardAccessoryView.h */,
+				501051601C92AB1A00981808 /* KeyBoardAccessoryView.m */,
+				501051611C92AB1A00981808 /* KeyBoardHelper.h */,
+				501051621C92AB1A00981808 /* KeyBoardHelper.m */,
+			);
+			path = KeyBoardKit;
+			sourceTree = "<group>";
+		};
+		50481DDF1C91032A0097E8B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50481DE01C91032A0097E8B3 /* DropperAVAudioPlayer.h */,
+				50481DE11C91032A0097E8B3 /* DropperAVAudioPlayer.m */,
+				50481DE21C91032A0097E8B3 /* DropperAVAudioRecorder.h */,
+				50481DE31C91032A0097E8B3 /* DropperAVAudioRecorder.m */,
+				50481DE41C91032A0097E8B3 /* DropperExportSession.h */,
+				50481DE51C91032A0097E8B3 /* DropperExportSession.m */,
+				500F27681C914A4400BFB717 /* DropperTextField.h */,
+				500F27691C914A4400BFB717 /* DropperTextField.m */,
+				500F276B1C914A7F00BFB717 /* DropperButton.h */,
+				500F276C1C914A7F00BFB717 /* DropperButton.m */,
+				500F27651C914A1E00BFB717 /* DropperKeyBoardView.h */,
+				500F27661C914A1E00BFB717 /* DropperKeyBoardView.m */,
+				5010515C1C92AB1A00981808 /* KeyBoardKit */,
+				50481DE61C91032A0097E8B3 /* Help.h */,
+				50481DE71C91032A0097E8B3 /* Help.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50481DE81C91032A0097E8B3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50481DF91C9105F80097E8B3 /* DropperBaseViewController.h */,
+				50481DFA1C9105F80097E8B3 /* DropperBaseViewController.m */,
+				50481DE91C91032A0097E8B3 /* DropperAVFoundationViewController.h */,
+				50481DEA1C91032A0097E8B3 /* DropperAVFoundationViewController.m */,
+				50481DEB1C91032A0097E8B3 /* DropperDateComponentsViewController.h */,
+				50481DEC1C91032A0097E8B3 /* DropperDateComponentsViewController.m */,
+				50481DED1C91032A0097E8B3 /* DropperEaseEmojiViewController.h */,
+				50481DEE1C91032A0097E8B3 /* DropperEaseEmojiViewController.m */,
+				50481DF61C9105620097E8B3 /* DropperEmojiKeyBoradViewController.h */,
+				50481DF71C9105620097E8B3 /* DropperEmojiKeyBoradViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		508320D41C83E2E80040710F /* Frameworks */ = {
@@ -180,8 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				508320D81C83EDF10040710F /* ios.mp3 in Resources */,
+				5010516D1C92AEEE00981808 /* 语音@2x.png in Resources */,
+				5010516C1C92AEEE00981808 /* 添加@2x.png in Resources */,
 				50104F4A1C7DA78700FE2A47 /* LaunchScreen.storyboard in Resources */,
 				50104F471C7DA78700FE2A47 /* Assets.xcassets in Resources */,
+				5010516B1C92AEEE00981808 /* 键盘@2x.png in Resources */,
+				5010516A1C92AEEE00981808 /* 表情@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +287,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				508320D11C83E1DF0040710F /* DropperAVFoundationViewController.m in Sources */,
+				50481DF01C91032A0097E8B3 /* DropperAVAudioRecorder.m in Sources */,
+				50481DF41C91032A0097E8B3 /* DropperDateComponentsViewController.m in Sources */,
+				501051641C92AB1A00981808 /* KeyBoardAccessoryView.m in Sources */,
+				500F276A1C914A4400BFB717 /* DropperTextField.m in Sources */,
 				50104F421C7DA78700FE2A47 /* ViewController.m in Sources */,
-				508320DB1C8422920040710F /* DropperAVAudioRecorder.m in Sources */,
+				500F27671C914A1E00BFB717 /* DropperKeyBoardView.m in Sources */,
 				50104F3F1C7DA78700FE2A47 /* AppDelegate.m in Sources */,
-				508320CD1C83DCB00040710F /* DropperAVAudioPlayer.m in Sources */,
-				50104F531C7DA7B800FE2A47 /* Help.m in Sources */,
+				50481DF51C91032A0097E8B3 /* DropperEaseEmojiViewController.m in Sources */,
+				50481DF11C91032A0097E8B3 /* DropperExportSession.m in Sources */,
 				50104F3C1C7DA78700FE2A47 /* main.m in Sources */,
+				50481DF21C91032A0097E8B3 /* Help.m in Sources */,
+				500F276D1C914A7F00BFB717 /* DropperButton.m in Sources */,
+				50481DFB1C9105F80097E8B3 /* DropperBaseViewController.m in Sources */,
+				501051631C92AB1A00981808 /* KeyBoard.m in Sources */,
+				50481DF81C9105620097E8B3 /* DropperEmojiKeyBoradViewController.m in Sources */,
+				50481DEF1C91032A0097E8B3 /* DropperAVAudioPlayer.m in Sources */,
+				501051651C92AB1A00981808 /* KeyBoardHelper.m in Sources */,
+				50481DF31C91032A0097E8B3 /* DropperAVFoundationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

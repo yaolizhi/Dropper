@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E3AF44F2337F0213308E0FC4FED0E96D0F9DE859",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "40bbad28-b2f8-43a6-a575-025b74be727e++8075" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "40bbad28-b2f8-43a6-a575-025b74be727e++8075" : 0,
+    "E3AF44F2337F0213308E0FC4FED0E96D0F9DE859" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7348C9DF-FD6D-4414-BE24-87F4CE9E54EB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "40bbad28-b2f8-43a6-a575-025b74be727e++8075" : "Dropper\/Dropper\/ViewController\/Emoji-master\/",
+    "E3AF44F2337F0213308E0FC4FED0E96D0F9DE859" : "Dropper\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Dropper",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Dropper.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.0.0.200\/svn\/www",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40bbad28-b2f8-43a6-a575-025b74be727e++8075"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yaolizhi\/Dropper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E3AF44F2337F0213308E0FC4FED0E96D0F9DE859"
+    }
+  ]
+}

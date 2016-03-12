@@ -6,12 +6,37 @@
 //  Copyright © 2016年 yaolizhi. All rights reserved.
 //
 
+
+
+#pragma mark  DataRequest Method
+#pragma mark  LifeStyle Method
+#pragma mark  Getter/Setter Method
+#pragma mark  Delegate Method
+#pragma mark  Response Method
+#pragma mark  Private Method
+
+
+
+
+
+
+
+
+
 #ifndef Dropper_Header_pch
 #define Dropper_Header_pch
 
 #import <AVFoundation/AVFoundation.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "Help.h"
+#import "DropperBaseViewController.h"
+#import "DropperButton.h"
+#import "DropperTextField.h"
+
+#import "KeyBoard.h"
+#import "KeyBoardAccessoryView.h"
+#import "KeyBoardHelper.h"
 
 #define kWindow [UIApplication sharedApplication].keyWindow
 //主屏幕的大小
@@ -20,10 +45,17 @@
 //设备屏幕尺寸
 #define kScreen_Height   ([UIScreen mainScreen].bounds.size.height)
 #define kScreen_Width    ([UIScreen mainScreen].bounds.size.width)
-
+//color
+#define RGB(r, g, b)  [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:1.0]
+#define RGBAlpha(r, g, b, a)  [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:(a)]
 
 #define Identifier @"ssssss"
 
+
+
+#define LineViewColor RGB(172.0, 172.0, 172.0)
+//项目的主题颜色
+#define MainColor RGBAlpha(0, 171.0, 235.0, 1.0)
 
 #pragma mark ************ 程序的沙盒目录 ****************
 #define HomeDirectoryDocumentFilePath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)/*这是获取沙盒目录*/ objectAtIndex:0]

@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "DropperEaseEmojiViewController.h"
 #import "DropperAVFoundationViewController.h"
+#import "DropperDateComponentsViewController.h"
+#import "DropperEmojiKeyBoradViewController.h"
 
 @interface ViewController () <UITableViewDataSource,UITableViewDelegate>
 
@@ -62,7 +65,7 @@
 {
     if (_dataArray == nil)
     {
-        _dataArray = [[NSMutableArray alloc]initWithObjects:@"时间格式",@"音频播放", nil];
+        _dataArray = [[NSMutableArray alloc]initWithObjects:@"表情处理",@"音频播放",@"日期组件",@"表情特殊键盘",nil];
     }
     return _dataArray;
 }
@@ -81,12 +84,22 @@
     {
         case 0:
         {
-            
+            [self.navigationController pushViewController:[[DropperEaseEmojiViewController alloc] init] animated:YES];
         }
             break;
         case 1:
         {
             [self.navigationController pushViewController:[[DropperAVFoundationViewController alloc] init] animated:YES];
+        }
+            break;
+        case 2:
+        {
+            [self.navigationController pushViewController:[[DropperDateComponentsViewController alloc] init] animated:YES];
+        }
+            break;
+        case 3:
+        {
+            [self.navigationController pushViewController:[[DropperEmojiKeyBoradViewController alloc] init] animated:YES];
         }
             break;
     }

@@ -9,12 +9,15 @@
 #import "DropperAVFoundationViewController.h"
 #import "DropperAVAudioPlayer.h"
 #import "DropperAVAudioRecorder.h"
+#import "DropperExportSession.h"
+
 
 
 @interface DropperAVFoundationViewController ()
 
 @property (nonatomic,strong) DropperAVAudioPlayer *Player;
 @property (nonatomic,strong) DropperAVAudioRecorder *Recorder;
+@property (nonatomic,strong) DropperExportSession *ExportSession;
 
 
 @end
@@ -28,10 +31,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.view setBackgroundColor:[UIColor whiteColor]];
     
 //    self.Player = [[DropperAVAudioPlayer alloc]initWithObject:self];
     self.Recorder = [[DropperAVAudioRecorder alloc]initWithObject:self];
+//    self.ExportSession = [[DropperExportSession alloc]initWithObject:self];
     
 }
 
